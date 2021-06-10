@@ -14,7 +14,7 @@ function run(data){
     d=data.split("</div>");for(i=0;i<d.length;i++){
 if (d[i].search("form-inline")>0|d[i].search("Nơi đi: ")>0|d[i].search("Nơi đến: ")>0) val+=lhcus(d[i]);}
 console.log(cvjs(val));//thay bằng hàm api
-console.log(mapData(datatest))
+console.log(mapData(datatest));
 }
 function cvjs(d){
   js={};

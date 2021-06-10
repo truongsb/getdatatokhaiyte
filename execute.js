@@ -63,12 +63,3 @@ function fnew(){
   }
   t1=t2;
 }
-
-const  datatest= {
-"ho_ten":"PHAN TUAN HAI",
-"nam_sinh":"1989",
-"gioi_tinh":"Nam ",
-"dien_thoai":"0911011611",
-"noi_di":"Phường Tân Bình - Thành phố Đồng Xoài - Tỉnh Bình Phước ",
-"noi_den":"Phường 8 - Quận Tân Bình - Thành phố Hồ Chí Minh ",
-"so_nha":"1137, Phú Riềng Đỏ - Phường Tân Bình - Thành phố Đồng Xoài - Tỉnh Bình Phước"}

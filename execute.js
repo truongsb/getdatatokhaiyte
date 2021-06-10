@@ -13,8 +13,7 @@ function run(data){
   val="";
     d=data.split("</div>");for(i=0;i<d.length;i++){
 if (d[i].search("form-inline")>0|d[i].search("Nơi đi: ")>0|d[i].search("Nơi đến: ")>0) val+=lhcus(d[i]);}
-console.log('123');//thay bằng hàm api
-console.log(mapData(datatest));
+console.log(cvjs(val));//thay bằng hàm api
 }
 function cvjs(d){
   js={};
@@ -65,3 +64,11 @@ function fnew(){
   t1=t2;
 }
 
+const  datatest= {
+"ho_ten":"PHAN TUAN HAI",
+"nam_sinh":"1989",
+"gioi_tinh":"Nam ",
+"dien_thoai":"0911011611",
+"noi_di":"Phường Tân Bình - Thành phố Đồng Xoài - Tỉnh Bình Phước ",
+"noi_den":"Phường 8 - Quận Tân Bình - Thành phố Hồ Chí Minh ",
+"so_nha":"1137, Phú Riềng Đỏ - Phường Tân Bình - Thành phố Đồng Xoài - Tỉnh Bình Phước"}
